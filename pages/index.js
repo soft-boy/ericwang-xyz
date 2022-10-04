@@ -1,6 +1,14 @@
 import Head from 'next/head'
+import { usePostHog } from 'next-use-posthog'
 
 export default function Home() {
+  usePostHog('phc_4Hlle7lsQt1PNd4NWtZO3nGp8Pf8gGdmws7mh4bCAXK', {
+    api_host: 'https://app.posthog.com',
+    loaded: (posthog) => {
+      if (process.env.NODE_ENV === 'development') posthog.opt_out_capturing()
+    },
+  })  
+
   return (
     <div className="container">
       <Head>
