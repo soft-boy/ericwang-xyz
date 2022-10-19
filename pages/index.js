@@ -49,7 +49,12 @@ export default function Home() {
           max-width: 37.5rem;
           font-family: 'Source Serif Pro', serif;
           line-height: 28px;
-          font-size: 1.2rem;
+        }
+
+        @media only screen and (min-device-width: 600px) {
+          body {
+            font-size: 1.2rem;
+          }
         }
 
         .title {
