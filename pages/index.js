@@ -34,11 +34,13 @@ export default function Home() {
             <div>former software eng <a href="https://twitter.com/amplitude_HQ">@amplitude</a></div>
           </div>
         </div>
-        <div className="category">projects</div>
+        <div className="category">work</div>
         <ul>
-          <li><a href="https://soft-boy.gitbook.io/graphicsjs">sql-helper</a> - natural language to SQL with GPT-3 Codex</li>
-          <li><a href="https://soft-boy.gitbook.io/graphicsjs">grammar-helper</a> - grammarly in a desktop notepad</li>
           <li><a href="https://soft-boy.gitbook.io/graphicsjs">graphics.js</a> - js rewrite of Andrew Merrill’s graphics.py</li>
+        </ul>
+        <div className="category">writing</div>
+        <ul>
+          <li><a href="/">...</a> - coming soon ;-)</li>
         </ul>
       </main>
 
