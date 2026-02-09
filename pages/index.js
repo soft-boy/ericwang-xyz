@@ -31,12 +31,16 @@ export default function Home() {
           />
           <div className="description">
             <div>spiritual seeker, traveller and artist</div>
-            <div>former software eng <a href="https://twitter.com/amplitude_HQ">@amplitude</a></div>
+            <div>software engineer @ <a href="https://meta.com/">meta</a></div>
           </div>
         </div>
         <div className="category">work</div>
         <ul>
-          <li><a href="https://soft-boy.gitbook.io/graphicsjs">graphics.js</a> - js rewrite of Andrew Merrill’s graphics.py</li>
+          <li><a href="https://github.com/soft-boy/ericmailfinder">ericmailfinder</a> - wip</li>
+          <li><a href="https://ewurl.cc/">ew-url</a> - tinyurl, but made by me</li>
+          <li><a href="https://www.datamonster.me/">datamonster.me</a> - generate datamonsters</li>
+          <li><a href="https://github.com/soft-boy/breakout-dqn">breakout-dqn</a> - deep q-learning for breakout</li>
+          <li><a href="https://github.com/soft-boy/split_decisions">split_decisions</a> - solve time magazine puzzles</li>
         </ul>
         <div className="category">writing</div>
         <ul>
