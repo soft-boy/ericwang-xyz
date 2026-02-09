@@ -3,12 +3,13 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "deploy": "next build && sudo rm -rf ~/www/* && sudo cp -r out/* ~/www/ && sudo nginx -s reload"
   },
   "dependencies": {
     "next": "latest",
     "next-use-posthog": "^1.16.0",
-    "react": "17.0.2",
-    "react-dom": "17.0.2"
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
   }
 }
