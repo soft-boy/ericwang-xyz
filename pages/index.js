@@ -33,7 +33,7 @@ export default function Home() {
             alt="profile"
           />
           <div className="description">
-            <div>spiritual seeker, traveller and artist</div>
+            <div>spiritual seeker, traveler and artist</div>
             <div>software engineer @ <a href="https://meta.com/">meta</a></div>
           </div>
         </div>
