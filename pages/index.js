@@ -1,14 +1,17 @@
 import Head from 'next/head'
-import { usePostHog } from 'next-use-posthog'
 import Image from 'next/image';
+import posthog from 'posthog-js'
+import { useEffect } from 'react'
 
 export default function Home() {
-  usePostHog('phc_4Hlle7lsQt1PNd4NWtZO3nGp8Pf8gGdmws7mh4bCAXK', {
-    api_host: 'https://app.posthog.com',
-    loaded: (posthog) => {
-      if (process.env.NODE_ENV === 'development') posthog.opt_out_capturing()
-    },
-  })  
+  useEffect(() => {
+    posthog.init('phc_4Hlle7lsQt1PNd4NWtZO3nGp8Pf8gGdmws7mh4bCAXK', {
+      api_host: 'https://us.i.posthog.com',
+      loaded: (client) => {
+        if (process.env.NODE_ENV === 'development') client.opt_out_capturing()
+      },
+    })
+  }, [])
 
   return (
     <div className="container">
@@ -16,7 +19,7 @@ export default function Home() {
         <title>eric wang</title>
         <link rel="icon" href="/favicon.ico" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         <link href="https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@400;700&display=swap" rel="stylesheet" />
       </Head>
       <main>
