@@ -39,6 +39,8 @@ export default function Home() {
         </div>
         <div className="category">work</div>
         <ul>
+          <li><a href="https://personalizr.io/">personalizr.io</a> - ai email icebreakers</li>
+          <li><a href="https://github.com/soft-boy/ew-rate-limiter">ew-rate-limiter</a> - express rate-limiter, but made by me (wip)</li>
           <li><a href="https://ewurl.cc/">ew-url</a> - tinyurl, but made by me</li>
           <li><a href="https://www.datamonster.me/">datamonster.me</a> - generate datamonsters</li>
           <li><a href="https://github.com/soft-boy/breakout-dqn">breakout-dqn</a> - deep q-learning for breakout</li>
