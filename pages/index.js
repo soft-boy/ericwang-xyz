@@ -34,12 +34,13 @@ export default function Home() {
           />
           <div className="description">
             <div>spiritual seeker, traveler and artist</div>
-            <div>software engineer @ <a href="https://meta.com/">meta</a></div>
+            <div>partner engineering @ <a href="https://meta.com/">meta</a></div>
           </div>
         </div>
         <div className="category">work</div>
         <ul>
           <li><a href="https://personalizr.io/">personalizr.io</a> - ai email icebreakers</li>
+          <li><a href="https://github.com/soft-boy/zeta">zeta</a> - minimalistic ai-agent harness</li>
           <li><a href="https://github.com/soft-boy/ew-rate-limiter">ew-rate-limiter</a> - express rate-limiter, but made by me (wip)</li>
           <li><a href="https://ewurl.cc/">ew-url</a> - tinyurl, but made by me</li>
           <li><a href="https://www.datamonster.me/">datamonster.me</a> - generate datamonsters</li>
