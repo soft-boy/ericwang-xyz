@@ -27,7 +27,7 @@ export default function Home() {
         <div className="bio">
           <Image
             className="profile"
-            src="/prof.jpg"
+            src="/prof.png"
             height={50}
             width={50}
             alt="profile"
@@ -97,7 +97,7 @@ export default function Home() {
         }
 
         a {
-          color: #40826d
+          color: #112BAC;
         }
       `}</style>
     </div>
