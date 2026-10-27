@@ -37,7 +37,7 @@ export default function Home() {
             <div>engineering @ <a href="https://meta.com/">meta</a></div>
           </div>
         </div>
-        <div className="category">code</div>
+        <div className="category">coding</div>
         <ul>
           <li><a href="https://waymoworld.onrender.com/">waymoworld</a> - 3D multiplayer waymo laser tag</li>
           <li><a href="https://github.com/soft-boy/zeta">zeta</a> - minimalistic ai-agent harness</li>
