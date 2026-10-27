@@ -40,8 +40,8 @@ export default function Home() {
         <div className="category">coding</div>
         <ul>
           <li><a href="https://waymoworld.onrender.com/">waymoworld</a> - 3D multiplayer waymo laser tag</li>
-          <li><a href="https://github.com/soft-boy/zeta">zeta</a> - minimalistic ai-agent harness</li>
           <li><a href="https://ewurl.cc/">ew-url</a> - tinyurl, but made by me</li>
+          <li><a href="https://github.com/soft-boy/zeta">zeta</a> - minimalistic ai-agent harness</li>
           <li><a href="https://www.datamonster.me/">datamonster.me</a> - generate datamonsters</li>
           <li><a href="https://github.com/soft-boy/breakout-dqn">breakout-dqn</a> - deep q-learning for breakout</li>
           <li><a href="https://github.com/soft-boy/split_decisions">split_decisions</a> - solve time magazine puzzles</li>
