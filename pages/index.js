@@ -37,7 +37,7 @@ export default function Home() {
             <div>engineering @ <a href="https://meta.com/">meta</a></div>
           </div>
         </div>
-        <div className="category">work</div>
+        <div className="category">code</div>
         <ul>
           <li><a href="https://waymoworld.onrender.com/">waymoworld</a> - 3D multiplayer waymo laser tag</li>
           <li><a href="https://github.com/soft-boy/zeta">zeta</a> - minimalistic ai-agent harness</li>
@@ -46,7 +46,7 @@ export default function Home() {
           <li><a href="https://github.com/soft-boy/breakout-dqn">breakout-dqn</a> - deep q-learning for breakout</li>
           <li><a href="https://github.com/soft-boy/split_decisions">split_decisions</a> - solve time magazine puzzles</li>
         </ul>
-        <div className="category">spirituality logs</div>
+        <div className="category">spirituality</div>
         <ul>
           <li><a href="https://app.notion.com/p/3-17-26-spirituality-notes-406798776e91809496a9f67afc286da6?source=copy_link">3.17.26</a> - spirituality</li>
           <li><a href="https://app.notion.com/p/6-21-25-Brain-Damage-219798776e9180ada539e943a109a169?source=copy_link">6.21.25</a> - brain damage</li>
