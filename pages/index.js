@@ -46,7 +46,7 @@ export default function Home() {
           <li><a href="https://github.com/soft-boy/breakout-dqn">breakout-dqn</a> - deep q-learning for breakout</li>
           <li><a href="https://github.com/soft-boy/split_decisions">split_decisions</a> - solve time magazine puzzles</li>
         </ul>
-        <div className="category">writing</div>
+        <div className="category">spirituality logs</div>
         <ul>
           <li><a href="https://app.notion.com/p/3-17-26-spirituality-notes-406798776e91809496a9f67afc286da6?source=copy_link">3.17.26 - spirituality logs</a> - the interconnectedness of beings, faith, love, calling, surrender</li>
           <li><a href="https://app.notion.com/p/6-21-25-Brain-Damage-219798776e9180ada539e943a109a169?source=copy_link">6.21.25 - brain damage</a> - mystical musings on intelligence, trauma, discipline and brain damage</li>
