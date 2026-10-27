@@ -34,7 +34,7 @@ export default function Home() {
           />
           <div className="description">
             <div>spiritual seeker, traveler and artist</div>
-            <div>partner engineering @ <a href="https://meta.com/">meta</a></div>
+            <div>engineering @ <a href="https://meta.com/">meta</a></div>
           </div>
         </div>
         <div className="category">work</div>
