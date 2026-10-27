@@ -48,10 +48,10 @@ export default function Home() {
         </ul>
         <div className="category">spirituality logs</div>
         <ul>
-          <li><a href="https://app.notion.com/p/3-17-26-spirituality-notes-406798776e91809496a9f67afc286da6?source=copy_link">03.17.26</a> - spirituality logs</li>
-          <li><a href="https://app.notion.com/p/6-21-25-Brain-Damage-219798776e9180ada539e943a109a169?source=copy_link">06.21.25</a> - brain damage</li>
+          <li><a href="https://app.notion.com/p/3-17-26-spirituality-notes-406798776e91809496a9f67afc286da6?source=copy_link">3.17.26</a> - spirituality logs</li>
+          <li><a href="https://app.notion.com/p/6-21-25-Brain-Damage-219798776e9180ada539e943a109a169?source=copy_link">6.21.25</a> - brain damage</li>
           <li><a href="https://app.notion.com/p/11-13-22-synchronicity-3d06e06d341b40a6bd50de0f46f4cb69?source=copy_link">11.13.22</a> - synchronicity</li>
-          <li><a href="https://app.notion.com/p/9-7-22-life-8e409d99bf2f4bee8de03da6bd10fdab?source=copy_link">09.07.22</a> - life</li>
+          <li><a href="https://app.notion.com/p/9-7-22-life-8e409d99bf2f4bee8de03da6bd10fdab?source=copy_link">9.7.22</a> - life</li>
         </ul>
       </main>
 
