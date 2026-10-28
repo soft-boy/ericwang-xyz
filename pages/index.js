@@ -14,6 +14,7 @@ const artworks = [
   'Collection of gesture drawings',
   'Seated figure viewed from behind',
   'Seated figure against a dark background',
+  'Jesse',
 ].map((description, index) => ({
   src: `/art/study-${String(index + 1).padStart(2, '0')}.png`,
   description,
