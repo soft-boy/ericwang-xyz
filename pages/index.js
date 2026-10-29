@@ -8,7 +8,6 @@ const artworks = [
   'Seated figure resting their head on their arms',
   'Crouching figure in profile',
   'Standing figure with arms overhead',
-  'Portrait in profile on white',
   'Seated figure torso study',
   'Portrait in profile on gray',
   'Collection of gesture drawings',
@@ -97,7 +96,7 @@ export default function Home() {
                 aria-haspopup="dialog"
                 onClick={() => setSelectedArtwork(index)}
               >
-                <img src={artwork.src} alt={artwork.description} width={1536} height={index === 9 ? 2173 : 2048} loading="lazy" />
+                <img src={artwork.src} alt={artwork.description} width={1536} height={index === 8 ? 2173 : 2048} loading="lazy" />
               </button>
             ))}
           </div>
