@@ -179,7 +179,7 @@ export default function Home() {
         .art-thumbnail {
           padding: 0;
           border: 0;
-          background: #f5f5f5;
+          background: transparent;
           cursor: zoom-in;
         }
 
