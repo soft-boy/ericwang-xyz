@@ -71,7 +71,7 @@ export default function Home() {
         </div>
         <div className="category">coding</div>
         <ul>
-          <li><a href="https://waymoworld.onrender.com/">waymoworld</a> - 3D multiplayer waymo laser tag</li>
+          <li><a href="https://sflasertaxi.com/">sf-laser-taxi</a> - 3D multiplayer waymo laser tag</li>
           <li><a href="https://ewurl.cc/">ew-url</a> - tinyurl, but made by me</li>
           <li><a href="https://github.com/soft-boy/zeta">zeta</a> - minimalistic ai-agent harness</li>
           <li><a href="https://www.datamonster.me/">datamonster.me</a> - generate datamonsters</li>
