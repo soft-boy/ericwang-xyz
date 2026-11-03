@@ -68,7 +68,7 @@ export default function Home() {
           />
           <div className="description">
             <div>spiritual seeker, traveler and artist</div>
-            <div>engineering @ <a href="https://meta.com/">meta</a></div>
+            <div>founder @ <a href="https://www.hellosystems.io/">hellosystems</a></div>
           </div>
         </div>
         <div className="category">coding</div>
