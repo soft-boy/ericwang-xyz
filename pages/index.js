@@ -73,6 +73,7 @@ export default function Home() {
         </div>
         <div className="category">coding</div>
         <ul>
+          <li><a href="https://tryagentbook.com/">agentbook</a> - write an ai-agent like you write a document</li>
           <li><a href="https://github.com/soft-boy/agentschema">agentschema</a> - markdown file based ai-agent specification</li>
           <li><a href="https://github.com/soft-boy/noto-md">noto-md</a> - notion-style markdown file editor</li>
           <li><a href="https://sflasertaxi.com/">sf-laser-taxi</a> - 3D multiplayer autonomous car laser tag</li>
